@@ -1,0 +1,43 @@
+/* Style the navbar */
+.navbar {
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.navbar-brand img {
+  border-radius: 50%; /* Rounded logo */
+}
+
+.form-control {
+  border-radius: 20px; /* Rounded search bar */
+  width: 300px;
+}
+
+.btn-outline-success {
+  border-radius: 20px; /* Rounded button */
+}
+
+.navbar-nav .nav-link {
+  margin-right: 20px; /* Spacing between links */
+  color: #000;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #28a745 !important; /* Hover color */
+}
+
+@media (max-width: 991.98px) {
+  /* On smaller screens, center the search bar and collapse the links */
+  .form-control {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .navbar-nav .nav-link {
+    margin: 10px 0;
+  }
+}
